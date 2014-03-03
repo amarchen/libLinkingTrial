@@ -54,11 +54,11 @@
 ////    return SailfishApp::main(argc, argv);
 //}
 
-//// Supposed to be never used
-//int main(int argc, char *argv[]) {
-//    qDebug() << "engine's main(). Is supposed to be never called"; // prints !!!Hello World!!!
-//    return 0;
-//}
+// Supposed to be never used
+int main(int argc, char *argv[]) {
+    qDebug() << "engine's main(). Is supposed to be never called"; // prints !!!Hello World!!!
+    return 0;
+}
 
 
 
